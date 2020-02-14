@@ -1,0 +1,60 @@
+/* pages/home/home.wxss */
+.topic {
+  padding: 0 32rpx;
+  border-bottom: 2rpx solid #E9E9E8; 
+}
+
+/* 发帖人 */
+.topic-poster {
+  display: flex;
+  align-items: center;
+}
+.topic-poster .portrait {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}
+.topic-poster .intro {
+  margin-left: 28rpx;
+}
+.topic-poster .intro .name {
+  color: #576B95;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.topic-poster .intro .serial {
+  margin-top: 4rpx;
+  font-size: 26rpx;
+  color: #101010;
+}
+
+/* 帖子内容 */
+.topic-message {
+  margin-top: 20rpx;
+}
+.topic-message .content {
+  width: 30px;
+  font-size: 36rpx;
+}
+
+/* 互动按钮 */
+.topic-interaction .interaction {
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+}
+.interaction .interaction-item {
+  display: flex;
+  align-items: center;
+}
+.interaction .interaction-item image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 8rpx;
+}
+.interaction .interaction-item text {
+  font-size: 28rpx;
+}
+.interaction .like {
+  margin-left: 24rpx
+}
